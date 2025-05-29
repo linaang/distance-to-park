@@ -37,7 +37,4 @@ Last updated: 25 Nov 2024
 ![Nature parks and nature reserves](figures/Parks.jpg)
 
 ## Contact
-<div style="text-align: justify;">
 For more information, please email me at [Lina Ang](mailto:ephanli@nus.edu.sg?subject=Inquiry%20about%20distance-to-park%20Repository).
-</div>
-
