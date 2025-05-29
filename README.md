@@ -9,8 +9,8 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 </div>
 
 ## Data sources used 
-1) HDB Property Information [Data.gov.sg](https://data.gov.sg/datasets?query=hdb&resultId=d_17f5382f26140b1fdae0ba2ef6239d2f&page=1)
-2) NParks Parks and Nature Reserves [Data.gov.sg](https://data.gov.sg/datasets?query=nature+parks&page=1&resultId=d_77d7ec97be83d44f61b85454f844382f)
+1) HDB Property Information [data.gov.sg](https://data.gov.sg/datasets?query=hdb&resultId=d_17f5382f26140b1fdae0ba2ef6239d2f&page=1)
+2) NParks Parks and Nature Reserves [data.gov.sg](https://data.gov.sg/datasets?query=nature+parks&page=1&resultId=d_77d7ec97be83d44f61b85454f844382f)
 3) OneMap API [OneMap API](https://www.onemap.gov.sg/apidocs/maps)
 
 ## Variables
@@ -29,13 +29,15 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 2) park_name: nearest park name to residential building
 
 ## HDB mapped
+Last updated: Dec 2024
 ![HDB mapped by latitude and longitude](figures/HDBs.jpg)
 
 ## Nature parks/reserves mapped
+Last updated: 25 Nov 2024
 ![Nature parks and nature reserves](figures/Parks.jpg)
 
 ## Contact
 <div style="text-align: justify;">
-For more information, please email me at <ephanli@nus.edu.sg>.
+For more information, please email Lina Ang at [ephanli@nus.edu.sg](mailto:ephanli@nus.edu.sg).
 </div>
 
