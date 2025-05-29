@@ -9,9 +9,9 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 </div>
 
 ## Data sources used 
-1) HDB Property Information [data.gov.sg](https://data.gov.sg/datasets?query=hdb&resultId=d_17f5382f26140b1fdae0ba2ef6239d2f&page=1)
-2) NParks Parks and Nature Reserves [data.gov.sg](https://data.gov.sg/datasets?query=nature+parks&page=1&resultId=d_77d7ec97be83d44f61b85454f844382f)
-3) OneMap API [OneMap API](https://www.onemap.gov.sg/apidocs/maps)
+1) <a href="https://data.gov.sg/datasets?query=hdb&resultId=d_17f5382f26140b1fdae0ba2ef6239d2f&page=1" target="_blank">HDB Property Information</a>
+2) <a href="https://data.gov.sg/datasets?query=nature+parks&page=1&resultId=d_77d7ec97be83d44f61b85454f844382f" target="_blank">NParks Parks and Nature Reserves</a> 
+3) <a href="https://www.onemap.gov.sg/apidocs/maps" target="_blank">OneMap API</a>
 
 ## Variables
  [1] "blk_no"                "street"                "postal"                "max_floor_lvl"        
@@ -25,7 +25,7 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 [33] "Longitude"             "Latitude"    
 
 ### Variables of interest
-1) dist_to_park_m: estimation of residential building to the nearest park in meters
+1) dist_to_park_m: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414)
 2) park_name: nearest park name to residential building
 
 ## HDB mapped
