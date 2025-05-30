@@ -36,5 +36,8 @@ Last updated: Dec 2024
 Last updated: 25 Nov 2024
 ![Nature parks and nature reserves](figures/Parks.jpg)
 
+## Visualize distance from HDBs to their nearest parks (n=5)
+![Illustration of distance](figures/illustration-distance-lines.jpg)
+
 ## Contact
 For more information, please email me at [Lina Ang](mailto:ephanli@nus.edu.sg?subject=Inquiry%20about%20distance-to-park%20Repository).
