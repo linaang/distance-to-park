@@ -24,7 +24,7 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 [29] "park_length"           "park_name"             "SVY21_X"               "SVY21_Y"              
 [33] "Longitude"             "Latitude"    
 
-- postal, Longitude, Latitude was generated using OneMap API.
+- "postal", "Longitude", "Latitude" was generated using OneMap API.
   
 ### Variables of interest
 1) dist_to_park_m: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414)
