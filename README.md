@@ -1,11 +1,11 @@
-Estimation of distance (in meters) from HDBs to the nearest parks (Singapore)
+Estimated distance (in meters) from HDBs to the nearest parks in Singapore
 ================
 Lina Ang
 2025-05-30
 
 ## About
 <div style="text-align: justify;">
-This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, detailing the estimated distances (in meters) from public residential buildings to the nearest nature parks or nature reserves in Singapore. All data in this public repository is free to use and download, as they are generated using open-source datasets.
+This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, detailing the estimated distances (in meters) from public residential buildings to the nearest nature parks or nature reserves in Singapore. All data in this public repository is free to use and download, as they are generated using open-source datasets. 
 </div>
 
 ## Data sources used 
@@ -28,16 +28,20 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 1) dist_to_park_m: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414)
 2) park_name: nearest park name to residential building
 
+### Limitation
+The distance is calculated based on the X,Y coordinates of the HDB and their nearest park locations. The estimated distance would be more accurate if it were measured from the HDB location to the nearest boundary (circumference) of the nearest park, rather than to the park's centroid (X,Y).
+
 ## HDB mapped
-Last updated: Dec 2024
+Dataset last updated: Dec 2024
 ![HDB mapped by latitude and longitude](figures/HDBs.jpg)
 
 ## Nature parks/reserves mapped
-Last updated: 25 Nov 2024
+Dataset last updated: 25 Nov 2024
 ![Nature parks and nature reserves](figures/Parks.jpg)
 
 ## Visualize distance from HDBs to their nearest parks (n=5)
 ![Illustration of distance](figures/illustration-distance-lines.jpg)
+- The distance is calculated based on the X,Y coordinates of the HDB to the nearest park's centroid (X,Y).
 
 ## Contact
 For more information, please email me at [Lina Ang](mailto:ephanli@nus.edu.sg?subject=Inquiry%20about%20distance-to-park%20Repository).
