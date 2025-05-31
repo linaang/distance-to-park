@@ -5,7 +5,7 @@ Lina Ang
 
 ## About
 <div style="text-align: justify;">
-This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, detailing the estimated distances (in meters) from public residential buildings to the nearest nature parks or nature reserves in Singapore. The distance is calculated based on the X,Y coordinates of the HDB to the nearest park's centroid (X,Y). All data in this public repository is free to use and download, as they are generated using open-source datasets. 
+This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, detailing the estimated distances (in meters) from public residential buildings to the nearest nature parks or nature reserves in Singapore. All data in this public repository is free to use and download, as they are generated using open-source datasets. 
 </div>
 
 ## Data sources used 
@@ -14,24 +14,27 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 3) <a href="https://www.onemap.gov.sg/apidocs/maps" target="_blank">OneMap API</a>
 
 ## Variables
- [1] "blk_no"                "street"                "postal"                "max_floor_lvl"        
- [5] "year_completed"        "residential"           "commercial"            "market_hawker"        
- [9] "miscellaneous"         "multistorey_carpark"   "precinct_pavilion"     "bldg_contract_town"   
-[13] "total_dwelling_units"  "X1room_sold"           "X2room_sold"           "X3room_sold"          
-[17] "X4room_sold"           "X5room_sold"           "exec_sold"             "multigen_sold"        
-[21] "studio_apartment_sold" "X1room_rental"         "X2room_rental"         "X3room_rental"        
-[25] "other_room_rental"     "address"               "dist_to_park_m"        "park_area"            
-[29] "park_length"           "park_name"             "SVY21_X"               "SVY21_Y"              
-[33] "Longitude"             "Latitude"    
+ [1] "blk_no"                 "street"                 "postal"                 "max_floor_lvl"         
+ [5] "year_completed"         "residential"            "commercial"             "market_hawker"         
+ [9] "miscellaneous"          "multistorey_carpark"    "precinct_pavilion"      "bldg_contract_town"    
+[13] "total_dwelling_units"   "X1room_sold"            "X2room_sold"            "X3room_sold"           
+[17] "X4room_sold"            "X5room_sold"            "exec_sold"              "multigen_sold"         
+[21] "studio_apartment_sold"  "X1room_rental"          "X2room_rental"          "X3room_rental"         
+[25] "other_room_rental"      "address"                "dist_to_park_centroid"  "dist_to_park_boundary" 
+[29] "diff_boundary_centroid" "park_area"              "park_length"            "park_name"             
+[33] "SVY21_X"                "SVY21_Y"                "Longitude"              "Latitude"   
 
 - "postal", "Longitude", "Latitude" was generated using OneMap API.
   
 ### Variables of interest
-1) dist_to_park_m: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414) based on the X,Y coordinates of the HDB to the nearest park's centroid
-2) park_name: nearest park name to residential building
+1) dist_to_park_centroid: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414) based on the X,Y coordinates of the HDB to the nearest park's centroid
+2) dist_to_park_boundary: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414) based on the X,Y coordinates of the HDB to the nearest park's boundary (circumference)
+3) diff_boundary_centroid: the difference of the two distance estimation (in meters): dist_to_park boundary - dist_to_park_centroid
+4) park_name: nearest park name to residential building
 
-### Limitation
-The distance is calculated based on the X,Y coordinates of the HDB and their nearest park locations. The estimated distance would be more accurate if it were measured from the HDB location to the nearest boundary (circumference) of the nearest park, rather than to the park's centroid (X,Y).
+### Boxplot of distance difference: boundary vs centroid  
+The boxplot of distance difference between the park boundary and centroid shows a mean difference of 0, with only 4 outliers. Both distance estimates are consistent and reliable.
+
 
 ## HDB mapped
 Dataset last updated: Dec 2024
