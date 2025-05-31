@@ -24,6 +24,8 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 [29] "park_length"           "park_name"             "SVY21_X"               "SVY21_Y"              
 [33] "Longitude"             "Latitude"    
 
+- postal, Longitude, Latitude was generated using OneMap API.
+  
 ### Variables of interest
 1) dist_to_park_m: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414)
 2) park_name: nearest park name to residential building
@@ -35,7 +37,7 @@ The distance is calculated based on the X,Y coordinates of the HDB and their nea
 Dataset last updated: Dec 2024
 ![HDB mapped by latitude and longitude](figures/HDBs.jpg)
 
-## Nature parks/reserves mapped
+## Nature parks and nature reserves mapped
 Dataset last updated: 25 Nov 2024
 ![Nature parks and nature reserves](figures/Parks.jpg)
 
