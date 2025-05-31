@@ -5,7 +5,7 @@ Lina Ang
 
 ## About
 <div style="text-align: justify;">
-This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, detailing the estimated distances (in meters) from public residential buildings to the nearest nature parks or nature reserves in Singapore. All data in this public repository is free to use and download, as they are generated using open-source datasets. 
+This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, detailing the estimated distances (in meters) from public residential buildings to the nearest nature parks or nature reserves in Singapore. The distance is calculated based on the X,Y coordinates of the HDB to the nearest park's centroid (X,Y). All data in this public repository is free to use and download, as they are generated using open-source datasets. 
 </div>
 
 ## Data sources used 
