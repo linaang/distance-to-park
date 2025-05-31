@@ -27,14 +27,14 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 - "postal", "Longitude", "Latitude" was generated using OneMap API.
   
 ### Variables of interest
-1) dist_to_park_centroid: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414) based on the X,Y coordinates of the HDB to the nearest park's centroid
-2) dist_to_park_boundary: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414) based on the X,Y coordinates of the HDB to the nearest park's boundary (circumference)
-3) diff_boundary_centroid: the difference of the two distance estimation (in meters): dist_to_park boundary - dist_to_park_centroid
-4) park_name: nearest park name to residential building
+1) **dist_to_park_centroid**: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414) based on the X,Y coordinates of the HDB to the nearest park's centroid
+2) **dist_to_park_boundary**: estimation of residential building to the nearest park in meters, calculated using the SVY21 projected coordinate system (EPSG:3414) based on the X,Y coordinates of the HDB to the nearest park's boundary (circumference)
+3) **diff_boundary_centroid**: the difference of the two distance estimation (in meters): dist_to_park boundary - dist_to_park_centroid
+4) **park_name**: name of nearest park to residential building
 
 ### Boxplot of distance difference: boundary vs centroid  
 The boxplot of distance difference between the park boundary and centroid shows a mean difference of 0, with only 4 outliers. Both distance estimates are consistent and reliable.
-
+![Boxplot of distance difference](figures/boxplot_diff_boundary_centroid.jpg)
 
 ## HDB mapped
 Dataset last updated: Dec 2024
