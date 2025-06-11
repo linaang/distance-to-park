@@ -48,5 +48,8 @@ Dataset last updated: 25 Nov 2024
 ![Illustration of distance](figures/illustration-distance-lines.jpg)
 - The distance is calculated based on the X,Y coordinates of the HDB to the nearest park's centroid (X,Y).
 
+## Limitation
+Calculating the distance from each HDB to its nearest park entrance along walkable pathways, rather than to the park's boundary or centroid, would provide a more accurate estimate.
+
 ## Contact
 For more information, please email me at [Lina Ang](mailto:ephanli@nus.edu.sg?subject=Inquiry%20about%20distance-to-park%20Repository).
