@@ -35,7 +35,7 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 
 ### Boxplot of distance difference: boundary vs centroid  
 The boxplot of distance difference between the park boundary and centroid shows a mean difference of 0. Both distance estimates are consistent and reliable.
-<br> ![Boxplot of distance difference](figures/boxplot_diff_boundary_centroid.png) </br>
+<br><p align="center"> ![Boxplot of distance difference](figures/boxplot_diff_boundary_centroid.png) </br></p>
 
 ## HDB mapped
 Dataset last updated: Jan 2025
