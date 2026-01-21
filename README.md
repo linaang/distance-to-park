@@ -2,7 +2,7 @@ Estimated distance (in meters) from HDBs to the nearest parks in Singapore
 ================
 Lina Ang
 2025-05-30
-<b>Last updated: 21 Jan 2026</b>
+<br>Last updated: 21 Jan 2026</br>
 
 ## About
 <div style="text-align: justify;">
