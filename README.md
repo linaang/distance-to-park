@@ -2,7 +2,7 @@ Estimated distance (in meters) from HDBs to the nearest parks in Singapore
 ================
 Lina Ang
 2025-05-30
-Last updated: 21 Jan 2026
+<a>Last updated: 21 Jan 2026</a>
 
 ## About
 <div style="text-align: justify;">
@@ -35,15 +35,15 @@ This repository contains datasets in GeoPackage (.gpkg) and CSV (.csv) formats, 
 
 ### Boxplot of distance difference: boundary vs centroid  
 The boxplot of distance difference between the park boundary and centroid shows a mean difference of 0. Both distance estimates are consistent and reliable.
-![Boxplot of distance difference](figures/boxplot_diff_boundary_centroid.jpg)
+![Boxplot of distance difference](figures/boxplot_diff_boundary_centroid.png)
 
 ## HDB mapped
 Dataset last updated: Dec 2024
-![HDB mapped by latitude and longitude](figures/HDBs_updated.jpg)
+![HDB mapped by latitude and longitude](figures/HDBs-updated.jpg)
 
 ## Nature parks and nature reserves mapped
 Dataset last updated: 25 Nov 2024
-![Nature parks and nature reserves](figures/Parks_updated.jpg)
+![Nature parks and nature reserves](figures/Parks-updated.jpg)
 
 ## Visualize distance from HDBs to their nearest parks (n=5)
 ![Illustration of distance](figures/illustration-distance-lines.jpg)
